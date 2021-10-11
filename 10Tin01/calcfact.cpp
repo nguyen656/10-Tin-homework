@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+    freopen("calcfact.inp", "r", stdin);
+    freopen("calcfact.out", "w", stdout);
     short n;
     long long p = 1;
     cin >> n;
