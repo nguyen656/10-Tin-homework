@@ -8,7 +8,7 @@ int main()
     long n;
     cin >> n;
     map<int, int> m;
-    for(int i = 2; i <= n; i++) {
+    for (long i = 2; i <= n; i++) {
         while(n % i == 0) {
             m[i]++;
             n /= i;
