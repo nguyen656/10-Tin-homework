@@ -5,7 +5,7 @@ int main()
 {
     freopen("number0.inp", "r", stdin);
     freopen("number0.out", "w", stdout);
-    long n, d = 0;
+    long long n, d = 0;
     cin >> n;
     while (n >= 5) {
         n /= 5;
