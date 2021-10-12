@@ -7,9 +7,9 @@ int main()
     freopen("diprime.out", "w", stdout);
     long n;
     cin >> n;
-    map<int, int> m;
+    map<long, long> m;
     for (long i = 2; i <= n; i++) {
-        while(n % i == 0) {
+        while (n % i == 0) {
             m[i]++;
             n /= i;
         }
