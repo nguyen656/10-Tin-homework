@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    freopen("diprimeali.inp", "r", stdin);
-    freopen("diprimeali.out", "w", stdout);
+    freopen("primeali.inp", "r", stdin);
+    freopen("primeali.out", "w", stdout);
     unsigned long long n, d = 0;
     cin >> n;
     map<long, long> m;
