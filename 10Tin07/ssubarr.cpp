@@ -14,7 +14,7 @@ typedef vector<long> vl;
 
 #define FU(i, a, b) for (long i = a; i <= b; i++)
 #define FD(i, a, b) for (long i = a; i >= b; i--)
-#define FE(i, a) for(auto i: a)
+#define FE(i, a) for (auto i: a)
 #define TC(t) while (t--)
 #define RESET(a, b) memset(a, b, sizeof(a))
 #define endl "\n"
