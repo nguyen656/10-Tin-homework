@@ -23,7 +23,7 @@ int main()
 {
     freopen("ssubarr.inp", "r", stdin);
     freopen("ssubarr.out", "w", stdout);
-	  ios_base::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(NULL);
     long q, d = 0;
     mll m;
