@@ -20,10 +20,10 @@ string add(string a, string b)
 
 int main()
 {
-    freopen("STAIRS1.inp","r",stdin);
-    freopen("STAIRS1.out","w",stdout);
+    freopen("STAIRS1.inp", "r", stdin);
+    freopen("STAIRS1.out", "w", stdout);
     int n;
-    string d[111];
+    string d[101];
     d[0] = '1'; d[1] = '1'; d[2] = '2';
     for (int i = 3; i <= 100; i++) d[i] = add(d[i - 1], d[i - 2]);
     while (cin >> n) {
