@@ -1,0 +1,36 @@
+{
+	"C++ snippet": {
+		"prefix": "gfg",
+		"body": [
+		  "/******************************************************",
+		  "*",
+		  "*     @file  : .cpp\"",
+		  "*     @author: nguyentrader\"",
+		  "*     @date  : mm/dd/yyyy\"",
+		  "*",
+		  "*******************************************************/",
+		  "",
+		  "#include <bits/stdc++.h>",
+		  "using namespace std;",
+		  "",
+		  "#define debug(x) cerr << #x << \" is \" << x << '\\n';",
+		  "#define Time_end(start) clock_t end = clock(); cout << (double)(end - start) / CLOCKS_PER_SEC << endl;",
+		  "",
+		  "void fileIO()",
+		  "{",
+		  "    freopen(\"input.txt\", \"r\", stdin);",
+		  "    freopen(\"error.txt\", \"w\", stderr);",
+		  "    freopen(\"output.txt\", \"w\", stdout);",
+		  "}",
+		  "",
+		  "int main()",
+		  "{",
+		  "    ios_base::sync_with_stdio(false);",
+		  "    cin.tie(NULL);",
+		  "    ",
+		  "    return 0;",
+		  "}"
+		],
+		"description": "C++ snippet"
+	  }
+}
